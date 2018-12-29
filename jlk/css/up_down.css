@@ -1,0 +1,25 @@
+div.news_up{
+	color:rgb(101,100,100);
+	width:40%;
+	float:left;
+	margin-left:5.6%;
+}
+div.news_up>a{
+	color:rgb(51,122,183);
+}
+div.news_up>a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+div.news_down{
+	color:rgb(101,100,100);
+	margin-right:1%;
+	float:right;
+}
+div.news_down>a{
+	color:rgb(51,122,183);
+}
+div.news_down>a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

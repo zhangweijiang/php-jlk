@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加栏目</title>
+
+<link rel="stylesheet" href="/jlk/css/lanmu.css">
+<script src="/jlk/js/jquery-3.1.0.js"></script>
+<script src='/jlk/lib/ueditor/ueditor.config.js'></script>
+<script src='/jlk/lib/ueditor/ueditor.all.min.js'></script>
+<script  src="/jlk/lib/ueditor/9fm/9fm.v1.js"></script>
+<script type="text/javascript">
+$(function(){
+	if($('#link_title1').attr('id')=='link_title1'){
+	var edit_title = new UE.ui.Editor({initialContent:'',initialFrameWidth:600,toolbars:[
+            ['fullscreen', 'source', '|', 'undo', 'redo', '|',
+                'bold', 'italic', 'underline',  'fontfamily', 'fontsize','forecolor', 'backcolor', '|',
+                'directionalityltr', 'directionalityrtl', 'indent', '|',
+                'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|','touppercase','tolowercase','|',
+                'imagenone', 'imageleft', 'imageright','imagecenter', '|',
+                'insertimage', 'emotion','scrawl','help']
+        ]});
+	// 禁止百度编辑器全屏
+	edit_title.addListener('beforefullscreenchange',function(event){
+		alert('此栏目不可全屏编辑！');
+		event.preventDefault();
+	});
+			edit_title.render("link_title1");
+	}else{
+		var edit_title = new UE.ui.Editor({initialContent:'',initialFrameWidth:300,toolbars:[
+            ['fullscreen', 'source', '|', 'undo', 'redo', '|',
+                'bold', 'italic', 'underline',  'fontfamily', 'fontsize','forecolor', 'backcolor', '|',
+                'directionalityltr', 'directionalityrtl', 'indent', '|',
+                'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|','touppercase','tolowercase','|',
+                'imagenone', 'imageleft', 'imageright','imagecenter', '|',
+                'insertimage', 'emotion','scrawl','help']
+        ]});
+	// 禁止百度编辑器全屏
+	edit_title.addListener('beforefullscreenchange',function(event){
+		alert('此栏目不可全屏编辑！');
+		event.preventDefault();
+	});
+			edit_title.render("link_title");
+	}
+	
+	var edit_content = new UE.ui.Editor({initialContent:'',initialFrameWidth:750});
+			edit_content.render("content");
+
+		
+});
+	
+</script>
+</head>
+<body style="background:rgb(221,238,242);">
+  <div id="header">
+    <a href="/jlk/admin_index.hmtl">洁立康管理中心</a>
+    <?php if($table==='news'){?>
+    <span>-添加新闻</span>
+    <a class="lanmu" href="./lanmu_detail_list.php?table=<?php echo $table?>">新闻列表</a>
+    <?php }else if($table==='product'){?>
+     <span>-添加产品</span>
+    <a class="lanmu" href="./lanmu_detail_list.php?table=<?php echo $table?>">产品列表</a>
+    <?php }else{?>
+    <span>-添加案例</span>
+    <a class="lanmu" href="./lanmu_detail_list.php?table=<?php echo $table?>">案例列表</a>
+    <?php }?>
+  </div>
+  <div style="margin-top:13px;">
+	<form enctype="multipart/form-data" action="/jlk/add_lanmu_detail_deal.php?table=<?php echo $table?>" method="post" name="form" id="form">
+		<select name="cat_id" >
+			<?php foreach($result as $v){?>
+			<option value="<?php echo $v['cat_id'];?>"><?php echo $v['cat_title'];?></option>
+			<?php }?>
+		</select>
+		<br><br>
+		<?php if($table==='news'){?>
+	新闻标题: <br><textarea name="link_title"  cols="40" rows="10"></textarea>
+	<br>
+	新闻内容：<textarea name="content" id="content"></textarea>
+	<p><input type="reset">&nbsp;<input type="submit" value="提交"></p>
+	<?php }else if($table==='product'){?>
+	产品名称: <textarea name="link_title" id="link_title" ></textarea>
+	<br>
+	产品内容：<textarea name="content" id="content"></textarea>
+	<p><input type="reset">&nbsp;<input type="submit" value="提交"></p>
+	<?php }else{?>
+	案例名称: <textarea name="link_title" id="link_title" ></textarea>
+	<br>
+	案例内容：<textarea name="content" id="content"></textarea>
+	<p><input type="reset">&nbsp;<input type="submit" value="提交"></p>
+	<?php }?>
+</div>
+</body>
+</html>

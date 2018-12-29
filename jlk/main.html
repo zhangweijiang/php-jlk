@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>关于我们</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="洁立康环保 http://www.qzjlk.com" />
+<link rel="stylesheet" href="/jlk/css/reset.css" />
+<link rel="stylesheet" href="/jlk/css/head.css" />
+<link rel="stylesheet" href="/jlk/css/main.css" />
+<link rel="stylesheet" href="/jlk/css/posterTvGrid.css">
+<link rel="stylesheet" href="/jlk/css/general.css" />
+<link rel="stylesheet" href="/jlk/css/slider.css" />
+<link rel="stylesheet" href="/jlk/css/service_hot.css" />
+
+	<script>window.jQuery || document.write('<script src="/jlk/js/jquery-1.11.0.js"><\/script>');</script>
+<script type="text/javascript" src="/jlk/js/jquery.flexslider-min.js"></script>
+<script src="/jlk/js/ScrollToPlugin.min.js"></script>
+<script src="/jlk/js/TweenMax.min.js"></script>
+<script src="/jlk/js/rocket.js"></script>
+<script src="/jlk/js/jquery.smoove.min.js"></script>
+<script type="text/javascript" src="/jlk/js/posterTvGrid.js"></script>
+<script src="/jlk/js/slider.js"></script>
+</head>
+    <body>
+    	 <div id="rocket">
+		  <span id="gotop1">
+		    <img src="/zwj/view/images/front/rocked.png" alt="返回顶部小火箭">
+		  </span>
+	  </div>
+    	<div id="header">
+	    	<img src="/jlk/images/company.png" alt="logo" class="img_one"/>
+	    	<img src="/jlk/images/服务热线.png" alt="服务热线" class="img_two"/>
+	    	<ul class="nav">
+	    		<li class="first"><a href="/main.php" >网站首页</a></li>
+	    		<li><a href="/jlk/about.php" >关于我们</a>
+			{foreach $about_result as $about_value}
+			     <ul class="nav_son">
+	    				<li><a href="/jlk/about.php?id={$about_value.id}" >{$about_value.title}</a></li>
+	    		    </ul>
+	    		 {/foreach}
+	    		</li>
+	    		<li><a href="/jlk/cases.php" >项目实例</a>
+			{foreach $cases_result as $cases_value}
+			     <ul class="nav_son">
+	    				<li><a href="/jlk/cases.php?id={$cases_value.cat_id}" >{$cases_value.cat_title}</a></li>
+	    		    </ul>
+	    		 {/foreach}
+	    		</li>
+	    		<li><a href="/jlk/product.php" >产品中心</a>
+				 {foreach $product_result as $product_value}
+			     <ul class="nav_son">
+	    				<li><a href="/jlk/product.php?id={$product_value.cat_id}" >{$product_value.cat_title}</a></li>
+	    		    </ul>
+	    		 {/foreach}
+	    		</li>
+	    		<li><a href="/jlk/culture.php" >企业文化</a>
+			     {foreach $culture_result as $culture_value}
+			     <ul class="nav_son">
+	    				<li><a href="/jlk/culture.php?id={$culture_value.id}" >{$culture_value.title}</a></li>
+	    		    </ul>
+	    		 {/foreach}
+	    		</li>
+	    		<li><a href="/jlk/news.php" >新闻资讯</a>
+			    {foreach $news_result as $news_value}
+			     <ul class="nav_son">
+	    				<li><a href="/jlk/news.php?id={$news_value.cat_id}" >{$news_value.cat_title}</a></li>
+	    		    </ul>
+	    		 {/foreach}
+	    		</li>
+	    		<li><a href="/jlk/joins.php" >加入我们</a>
+			     {foreach $joins_result as $joins_value}
+			       <ul class="nav_son">
+	    				<li><a href="/jlk/joins.php?id={$joins_value.id}" >{$joins_value.title}</a></li>
+	    		    </ul>
+	    		 {/foreach}
+	    		</li>
+	    		<li><a href="/jlk/contact.php" >联系我们</a>
+			       <ul class="nav_son">
+			       	     {foreach $contact_result as $contact_value}
+	    				<li><a href="/jlk/contact.php?id={$contact_value.id}" >{$contact_value.title}</a></li>
+	    			     {/foreach}
+	    			     <li><a href="/jlk/message.php">留言反馈</a></li>
+	    		    </ul>
+	    		</li>
+	    	</ul>
+    	</div>
+    	<div class="clear"></div>
+	    <div class="flexslider" >
+		  <ul class="slides">
+
+		    <li ><img src="/jlk/images/4.jpg" alt="1.jpg" /></li>
+		    <li ><img src="/jlk/images/1.jpg" alt="2.jpg" /></li>
+		    <li ><img src="/jlk/images/2.jpg" alt="3.jpg" /></li>
+		    <li ><img src="/jlk/images/5.jpg" alt="4.jpg" /></li>
+		  </ul>
+	   </div>
+	   <div class="clear"></div>
+	 <!-- <div id="here"></div> -->
+	   <div  class="index_about">
+	   <div  style="width:90%;margin:0px auto 0px auto;">
+		  <div id="company_profile">
+		  	<span class="content_title"><a href="/jlk/about.php" class="company">公司介绍</a></span>
+		  	<img src="/jlk/images/company_profile.png" alt=""  />
+		  	<span class="content_title_detail"><a href="/jlk/about.php" class="company_plus">+</a></span>
+		  	<div class="clear"></div>
+		  	<div class="company_profile_left" >
+		  		<img src="/jlk/images/公司介绍6.png" alt="" style="max-width:100%;"/>
+		  	</div>
+		  	<div class="company_profile_right" >{$about_result[0].content}</div>
+		  </div>
+		  <div id="company_case" >
+		  	<span class="content_title"><a href="/jlk/cases.php" class="company">施工案例</a></span>
+		  	<img src="/jlk/images/company_cases.png" alt=""  />
+		  	<span class="content_title_detail"><a href="/jlk/cases.php" class="company_plus">+</a></span>
+		  	<div class="clear"></div>
+		  	<img src="/jlk/images/1.png"  class="goLeft"/>
+		  	<img src="/jlk/images/2.png"  class="goRight"/>
+
+	<div class="wrap">
+		<ul>
+			{foreach $cases as $cv}
+			<li><a href="/jlk/casesinfo.php?id={$cv.id}&cat_id={$cv.cat_id}"><img src="{$cv.img}" style="width:200px;height:200px;" alt="未上传图片"></a></li>
+			{/foreach}
+		</ul>
+	</div>
+		  </div>
+	  </div><div class="clear"></div></div>
+	  	<div class="clear"></div>
+	  	<div  class="product_display "><img src="/jlk/images/product.jpg" alt="" style="max-width:100%;dispaly:block;" /></div>
+		  <div id="posterTvGrid" style="margin:0px auto;" >
+		  	
+		  </div>
+		<div style="width:100%;background:url(/jlk/images/index_news.jpg);height:470px;margin-top:-50px;" >
+			<div class="company_contact block1 right_content" data-move-y="200px" data-move-x="-200px">
+				<span class="content_title"><a href="/jlk/news.php" >新闻资讯</a></span>
+			  	<img src="/jlk/images/company_news.png" alt=""  />
+			  	<span class="content_title_detail"><a href="/jlk/news.php" class="company_plus">+</a></span>
+			  	<div class="clear"></div>
+				{foreach $news as $nv}
+					<a href="/jlk/newsinfo.php?id={$nv.id}&cat_id={$nv.cat_id}&table=news&time={$nv.publish_time}">
+						<img src="/jlk/images/arrow_right.png" alt="" />
+						{if mb_strlen($nv.link_title)>=20}
+						<div class="left_title">{$nv.link_title|mb_substr:0:20:'utf-8'}...</div>
+						<div class="right_date">{$nv.publish_time|date_format:'%Y-%m-%d'}</div>
+						{else}
+						<div class="left_title">{$nv.link_title}</div>
+						<div class="right_date">{$nv.publish_time|date_format:'%Y-%m-%d'}</div>
+						{/if}
+						 <div class="clear"></div>
+				          </a>
+				          <div class="clear"></div>
+				{/foreach}
+			</div>
+			<div class="company_news block1" data-move-y="200px" data-move-x="200px"><a href="/jlk/contact.php"><img src="/jlk/images/联系我们2.jpg" alt="" style="max-width:100%;"/></a></div>
+		</div>
+		
+	   <div id="footer"  >
+	   	<pre>   电话：0595-85050607     地址：晋江市青阳街道洪山路一百文创园1#楼402-3
+版权所有@ 泉州市洁立康环保工程有限公司</pre>
+	   </div>
+	   <div id="service_hot_show"><img src="/jlk/images/服务热线3.png" alt="" /></div>
+	   <div id="service_hot_hide">
+	   	<div id="service_hot_hide_top"><div class="close"><img src="/jlk/images/关闭4.png" alt="" /></div></div>
+	   	<div id="service_hot_hide_bottom">
+	   		<img src="/jlk/images/qqonline.gif" alt="" /><span>在线QQ咨询：</span>
+	   		<div class="clear"></div>
+	   		<div class="hot_here"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=693170717&site=qq&menu=yes">693170717</a></div>
+	   		<img src="/jlk/images/tel.gif" alt="" /><span style="margin-top:11px;display:block;margin-left:5px;">咨询热线：</span>
+	   		<div class="clear"></div>
+	   		<div style="margin-left:50px;color:rgb(245,45,34);font-weight:bold;padding-top:11px;">0595-85050607</div>
+	   		<div style="margin-left:50px;color:rgb(245,45,34);font-weight:bold;padding-top:11px;">13305060599</div>
+	   		<img src="/jlk/images/msg.gif" alt="" style="margin-top:11px;" /><a style="margin-top:11px;display:block;float:left;color:rgb(51,51,51);margin-left: 11px;font-size:13px;font-weight: bold;">留言咨询：</a>
+	   		<div class="clear"></div>
+	   		<a class="message_here" href="/jlk/message.php">点这里留言</a>
+	   	</div>
+	   </div>
+		<script type="text/javascript">
+		var json_arr={$json_arr}
+		{literal}
+			var posterTvGrid = new posterTvGrid('posterTvGrid',{className: "posterTvGrid"},[
+			{"img":""+json_arr[0]['img'],"title":"Lorem ipsum dolor sit amet","url":"/jlk/productinfo.php?id="+json_arr[0]['id']+"&cat_id="+json_arr[0]['cat_id']},
+			{"img":""+json_arr[1]['img'],"title":"Lorem ipsum dolor sit amet","url":"/jlk/productinfo.php?id="+json_arr[1]['id']+"&cat_id="+json_arr[1]['cat_id']},
+			{"img":""+json_arr[2]['img'],"title":"Lorem ipsum dolor sit amet","url":"/jlk/productinfo.php?id="+json_arr[2]['id']+"&cat_id="+json_arr[2]['cat_id']},
+			{"img":""+json_arr[3]['img'],"title":"Lorem ipsum dolor sit amet","url":"/jlk/productinfo.php?id="+json_arr[3]['id']+"&cat_id="+json_arr[3]['cat_id']}
+			
+		]
+		);
+			$(function(){
+				$('.block1').smoove({offset:'30%'});
+				
+			});
+			{/literal}
+		</script>	
+		
+    </body>
+</html>

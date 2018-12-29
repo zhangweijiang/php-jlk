@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="5;URL=lanmu_list.php?table=<?php echo $table?>"> 
+  <meta charset="UTF-8">
+  <title>添加栏目成功页面</title>
+<link rel="stylesheet" href="/jlk/css/lanmu.css">
+<style type="text/css">
+.aaa>a{
+  padding-left:7px;
+  padding-top:3px;
+  cursor:pointer;
+  color:rgb(79,172,229);
+  font-size:14px;
+}
+  .aaa>a:hover{
+  color:red;
+  text-decoration: underline;
+  }
+</style>
+</head>
+<body style="background:rgb(221,238,242);">
+ <div id="header">
+    <a href="/jlk/admin_index.hmtl">洁立康管理中心</a>
+    <span>-系统信息</span>
+  </div>
+  <?php if($table==='news_cat'){?>
+  <div class="form-div" style="margin-top:10px;background:rgb(240,250,251);">
+  <div id="content" style="width:800px;margin-left:70px;">
+ <img src="/jlk/images/information.gif" alt="图片不存在" style="float:left">
+  <span style="padding-left:28px;color:black;font-size:14px;font-weight:bold;float:left;margin-top:7px;">编辑新闻分类成功</span>
+  <div style="clear:both;"></div>
+  <div style="margin-left:58px;font-size:14px;color:rgb(128,128,128);">如果您不做出选择，将在 5 秒后跳转到第一个链接地址。</div>
+  <div style="margin-left:58px;margin-top:7px;" class="aaa">
+    <img src="/jlk/images/arrow.gif" alt="图片不存在">
+    <a href="/jlk/lanmu_list.php?table=<?php echo $table?>" class="href" >
+      新闻分类列表
+    </a>
+  </div>
+  </div>
+</div>  
+<?php }else if($table==='product_cat'){?>
+<div class="form-div" style="margin-top:10px;background:rgb(240,250,251);">
+  <div id="content" style="width:800px;margin-left:70px;">
+ <img src="/jlk/images/information.gif" alt="图片不存在" style="float:left">
+  <span style="padding-left:28px;color:black;font-size:14px;font-weight:bold;float:left;margin-top:7px;">编辑产品分类成功</span>
+  <div style="clear:both;"></div>
+  <div style="margin-left:58px;font-size:14px;color:rgb(128,128,128);">如果您不做出选择，将在 5 秒后跳转到第一个链接地址。</div>
+  <div style="margin-left:58px;margin-top:7px;" class="aaa">
+    <img src="/jlk/images/arrow.gif" alt="图片不存在">
+    <a href="/jlk/lanmu_list.php?table=<?php echo $table?>" class="href" >
+      产品分类列表
+    </a>
+  </div>
+  </div>
+</div>  
+<?php }else if($table==='cases_cat'){?>
+<div class="form-div" style="margin-top:10px;background:rgb(240,250,251);">
+  <div id="content" style="width:800px;margin-left:70px;">
+ <img src="/jlk/images/information.gif" alt="图片不存在" style="float:left">
+  <span style="padding-left:28px;color:black;font-size:14px;font-weight:bold;float:left;margin-top:7px;">编辑案例分类成功</span>
+  <div style="clear:both;"></div>
+  <div style="margin-left:58px;font-size:14px;color:rgb(128,128,128);">如果您不做出选择，将在 5 秒后跳转到第一个链接地址。</div>
+  <div style="margin-left:58px;margin-top:7px;" class="aaa">
+    <img src="/jlk/images/arrow.gif" alt="图片不存在">
+    <a href="/jlk/lanmu_list.php?table=<?php echo $table?>" class="href" >
+      案例分类列表
+    </a>
+  </div>
+  </div>
+</div>  
+<?php }else{?>
+<div class="form-div" style="margin-top:10px;background:rgb(240,250,251);">
+  <div id="content" style="width:800px;margin-left:70px;">
+ <img src="/jlk/images/information.gif" alt="图片不存在" style="float:left">
+  <span style="padding-left:28px;color:black;font-size:14px;font-weight:bold;float:left;margin-top:7px;">编辑栏目成功</span>
+  <div style="clear:both;"></div>
+  <div style="margin-left:58px;font-size:14px;color:rgb(128,128,128);">如果您不做出选择，将在 5 秒后跳转到第一个链接地址。</div>
+  <div style="margin-left:58px;margin-top:7px;" class="aaa">
+    <img src="/jlk/images/arrow.gif" alt="图片不存在">
+    <a href="/jlk/lanmu_list.php?table=<?php echo $table?>" class="href" >
+      栏目列表
+    </a>
+  </div>
+  </div>
+</div>  
+<?php }?>
+</body>
+</html>

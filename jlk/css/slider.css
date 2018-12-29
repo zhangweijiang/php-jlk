@@ -1,0 +1,64 @@
+
+
+.wrap{
+	-border: 3px solid #f00;
+	width: 400px;
+	height: 210px;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap>ul{
+	overflow: hidden;
+	position:absolute;
+	width: 1600px;
+	left: 0;
+	top: 0;
+	_height:1px;
+}
+
+.wrap>ul>li{
+	float: left;
+	
+}
+.wrap>ul>li>a{
+	display: block;
+	float:left;
+	padding:4px;
+	border:1px solid rgb(204,204,204);
+	margin-right: 13px;
+
+}
+#company_case>img.goLeft{
+	width:30px;
+	height:30px;
+	position:relative;
+	top:120px;
+	z-index:10;
+}
+.goLeft:hover{
+	cursor: pointer;
+}
+#company_case>img.goRight{
+	width:30px;
+	height:30px;
+	position:relative;
+	top:120px;
+	left:338px;
+	z-index:10;
+}
+#company_case>img.goRight:hover{
+	cursor: pointer;
+}
+@media only screen and (min-width: 960px) and (max-width: 1166px){
+	.wrap{
+	width: 300px;
+	height: 210px;
+	position: relative;
+	overflow: hidden;
+	
+	}
+	#company_case>img.goRight{
+		left:240px;
+	}
+}

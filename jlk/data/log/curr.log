@@ -1,0 +1,1234 @@
+﻿set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set FOREIGN_KEY_CHECKS=0
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set FOREIGN_KEY_CHECKS=0
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set FOREIGN_KEY_CHECKS=0
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set names utf8
+set names utf8
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from user where username='电风扇' and password='2d917f5d1275e96fd75e6352e26b1387' and status=1
+set names utf8
+select * from user where username='电风扇' and password='5ebf8364d17c8df7e4afd586c24f84a0' and status=1
+set names utf8
+select * from user where username='电风扇' and password='80457cf3a7b15afb8f491f8ae06680db' and status=1
+set names utf8
+select * from user where username='张伟江' and password='da6cb383f8f9e58f2c8af88a8c0eb65e' and status=1
+set names utf8
+select * from user where username='张伟江' and password='cbcb58ac2e496207586df2854b17995f' and status=1
+set names utf8
+select * from user where username='张伟江' and password='eff7d5dba32b4da32d9a67a519434d3f' and status=1
+set names utf8
+select * from user where username='张伟江' and password='eff7d5dba32b4da32d9a67a519434d3f' and status=1
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from user where username='大厦' and password='38c55423e123aca445982dfd897a552d' and status=1
+set names utf8
+select * from user where username='大厦' and password='38c55423e123aca445982dfd897a552d' and status=1
+set names utf8
+select * from user where username='大厦' and password='1395ad342f7331f6ae81badb2eeb4717' and status=1
+set names utf8
+select * from user where username='大厦' and password='789b43718b2f9d6231db95c265f33670' and status=1
+set names utf8
+select * from user where username='大厦' and password='dd290a212412f86b129c622f278c9c11' and status=1
+set names utf8
+select * from user where username='大厦' and password='7c1cadb6887373dacb595c47166bfbd9' and status=1
+set names utf8
+select * from user where username='洁立康' and password='ce5fbd48bcac8e5895c874154bef69cf' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from user where username='凡是方式的' and password='f0118e9bd2c4fb29c64ee03abce698b8' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select @@basedir as basePath from dual
+set names utf8
+select * from user;
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select @@basedir as basePath from dual
+set names utf8
+set names utf8
+select * from culture
+set names utf8
+select * from culture
+select * from culture where id=1
+set names utf8
+update culture set title='节能文化',content='<p style=\"text-align: center;\"><img title=\"1484658040742212.jpg\" alt=\"QQ图片20170117210006.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484658040742212.jpg\"/><img title=\"1484658070398904.jpg\" alt=\"QQ图片20170117205958.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484658070398904.jpg\"/></p>' where id=1
+set names utf8
+select * from culture
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from about
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=1
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from culture
+select * from culture where id=1
+set names utf8
+update culture set title='节能文化',content='<p style=\"text-align: center;\"><img title=\"1484658040742212.jpg\" alt=\"QQ图片20170117210006.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484658040742212.jpg\"/><img title=\"1484658223981684.jpg\" alt=\"QQ图片20170117210003.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484658223981684.jpg\"/><img title=\"1484658242133148.jpg\" alt=\"QQ图片20170117210323.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484658242133148.jpg\"/></p>' where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=1
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from culture
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from culture
+select * from culture where id=2
+set names utf8
+select * from about
+select * from about where id=2
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+update culture set title='公司文化',content='<p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\"><strong style=\"font-weight: bold;\">核心价值观：诚信、创新、人本、专注</strong></p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">以德为本，修身为上；以勤为基，敬业为上；以人为贵，协作为上；以诚为先，践行为上。</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\"><strong style=\"font-weight: bold;\">我们的使命：引领环保健康新时尚，缔造财富自由新企业</strong></p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">地球的血脉是水、生命的源泉是水。关爱我们的星球，呵护我们的家园，让世间万物生生不息，永远被洁净的碧水蓝天簇拥环绕，是中环水务生存和发展的全部意义。</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\"><strong style=\"font-weight: bold;\">我们的愿景：缔造最具创新力和竞争力的环保企业</strong></p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">坚持主业上规模、辅业上效益，实现规模化成长与盈利能力的快速提升并举，不断改善资产质量，打通融资平台，逐步构建科技型水务集团，全面提升企业核心竞争力，打造中国水务行业领军企业。</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\"><strong style=\"font-weight: bold;\">企业精神：居安思危　开拓创新　务实进取　携手同行</strong></p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">我们经历的时代是信息时代，她鞭策着我们始终以忧患的意识居安思危；我们所处的产业是朝阳产业，她呼唤着我们始终以昂扬的斗志开拓创新；我们建设的&nbsp;工程是百年大计，她激励着我们始终以科学的精神务实进取；我们营造的文明是生态文明，她鼓舞着我们始终以包容的气度与全体伙伴携手同行。</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\"><strong style=\"font-weight: bold;\">工作作风（八办作风）</strong></p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">今天的事，今天办；</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">重要的事，优先办；</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">限时的事，按时办；</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">能办的事，马上办；</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">困难的事，努力办；</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">琐碎的事，抽空办；</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">份外的事，协助办；</p><p style=\"font: 14px/28px 微软雅黑, 宋体; margin: 13px 0px 5px; text-align: justify; color: rgb(47, 44, 44); text-transform: none; text-indent: 2em; letter-spacing: normal; word-spacing: 0px; white-space: normal; widows: 1; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;\" class=\"indent\">所有的事，认真办。</p><p></p>' where id=2
+set names utf8
+select * from culture
+set names utf8
+select * from about
+set names utf8
+select * from about
+select * from about where id=2
+set names utf8
+update about set title='发展战略',content='<p>&nbsp; &nbsp;<span style=\"font-family: 宋体; font-size: 14px;\"><strong><span style=\"font-family: 宋体; font-size: 16px;\">核心价值观：</span><span style=\"font-family: 宋体; font-size: 16px;\"></span></strong>诚信、创新、人本、专注</span></p><p>&nbsp; &nbsp;<strong><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">诚信：</span></strong></strong><span style=\"font-family: 宋体; font-size: 14px;\">诚信是企业立身之本，一要对顾客诚信，二要对员工诚信，三药对股东诚信，四要对政府诚信，五要对社会诚信。</span> &nbsp; &nbsp;</p><p><span style=\"font-family: 宋体; font-size: 14px;\"></span></p><p>&nbsp; &nbsp;<strong><span style=\"font-family: 宋体;\"><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">创新：</span></strong></span></strong><span style=\"font-family: 宋体; font-size: 14px;\">没有创新就没有发展，创新是企业进步的灵魂，是事业前进的不竭动力。一要文化创新，二要管理创新，三要技术创新。</span></p><p>&nbsp; &nbsp;<strong><span style=\"font-family: 宋体; font-size: 16px;\"><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">人本：</span></strong></span></strong><span style=\"font-size: 14px;\">以人为本是企业成功的关键，把面向人，尊重人，关爱人放在管理首位，做顾客、员工、股东的知心人、贴心人；只有学习才能成功。</span></p><p>&nbsp;&nbsp;&nbsp;<strong><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">专注：</span></strong></strong><span style=\"font-size: 14px;\">专注是企业成功的瑰宝，一个企业只有专注品质，关注未来，才能成功。</span><br/></p><p>&nbsp; &nbsp;<strong><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">企业格言：</span></strong></strong><span style=\"font-size: 14px;\">洁立康生活卫视，为您的健康生活保驾护航，创新科技引领高端新生活。</span></p><p>&nbsp; &nbsp;<strong><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">企业使命：</span></strong></strong><span style=\"font-size: 14px;\">引领环保健康新时尚,缔造财富自由新企业。</span></p><p>&nbsp; &nbsp;<span style=\"font-size: 14px;\"><strong><strong><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">企业远景：</span></strong></strong></strong>缔造最具创新力和竞争力的环保企业</span></p><p>&nbsp; &nbsp;<strong><strong><strong style=\"font-family: 宋体; font-size: 14px;\"><span style=\"font-size: 16px;\">企业精神：</span></strong></strong></strong><span style=\"font-size: 14px;\">专注品质，关注未来。</span></p><p><br/></p><p><br/></p>' where id=2
+set names utf8
+select * from about
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select @@basedir as basePath from dual
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=1
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=2
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=3
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from product_cat
+set names utf8
+insert into product (cat_id,link_title,content,img) values ('1','<p style=\"text-align: center;\"><img title=\"1484660075135816.jpg\" alt=\"1-1F11G23008.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660075135816.jpg\"/>净水机</p>','<p style=\"text-align: center;\"><img title=\"1484660092482988.jpg\" alt=\"1-1F11G23008.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660092482988.jpg\"/><img title=\"1484660109229789.jpg\" alt=\"1-1F11G23026.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660109229789.jpg\"/></p>','/jlk/lib/ueditor/php/upload/image/20170117/1484660075135816.jpg')
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=3
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from product left join product_cat on product.cat_id=product_cat.cat_id
+set names utf8
+select * from cases_cat
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases where id=1
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484660463589879.jpg\" alt=\"1-1F115151153.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660463589879.jpg\"/>清洗案例1</p>',content='<p><img title=\"1484275056565953.jpg\" alt=\"1-1F10400321C25.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170113/1484275056565953.jpg\"/></p><p style=\"text-align: center;\"><br/></p><p style=\"text-align: center;\"><video class=\"edui-upload-video  vjs-default-skin  video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src data-setup=\"{}\"></video></p><p style=\"text-align: center;\"><img title=\"1484660525759166.jpg\" alt=\"1-1F115151153.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660525759166.jpg\"/><video class=\"edui-upload-video  vjs-default-skin  video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src data-setup=\"{}\"></video></p><p style=\"text-align: center;\">&nbsp;&nbsp;&nbsp;&nbsp;<video class=\"edui-upload-video  vjs-default-skin  video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src data-setup=\"{}\"></video></p>',img='/jlk/lib/ueditor/php/upload/image/20170117/1484660463589879.jpg' where id=1
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases where id=4
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484660612556400.jpg\" alt=\"1-1F115151153-50.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660612556400.jpg\"/>清洗案例2</p>',content='<p style=\"text-align: center;\"><img title=\"1484660629135304.jpg\" alt=\"1-1F115151153-50.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660629135304.jpg\"/></p>',img='/jlk/lib/ueditor/php/upload/image/20170117/1484660612556400.jpg' where id=4
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases where id=5
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484660688580326.jpg\" alt=\"1-1F11G03133.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660688580326.jpg\"/></p>',content='<p style=\"text-align: center;\"><img title=\"1484660705103396.jpg\" alt=\"1-1F11G03133.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660705103396.jpg\"/></p>',img='/jlk/lib/ueditor/php/upload/image/20170117/1484660688580326.jpg' where id=5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases_cat
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases_cat
+set names utf8
+insert into cases (cat_id,link_title,content,img) values ('1','<p style=\"text-align: center;\"><img title=\"1484660742127016.jpg\" alt=\"1-1F115150Z8-51.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660742127016.jpg\"/>&nbsp;&nbsp;&nbsp;&nbsp;清洗案例5</p>','<p style=\"text-align: center;\"><img title=\"1484660771131406.jpg\" alt=\"1-1F115150Z8.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660771131406.jpg\"/><img title=\"1484660764562640.jpg\" alt=\"1-1F115150Z8-51.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660764562640.jpg\"/></p>','/jlk/lib/ueditor/php/upload/image/20170117/1484660742127016.jpg')
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where cat_id=1
+set names utf8
+select * from cases where id=5
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484660688580326.jpg\" alt=\"1-1F11G03133.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660688580326.jpg\"/></p><p style=\"text-align: center;\">清洗案例3</p>',content='<p style=\"text-align: center;\"><img title=\"1484660705103396.jpg\" alt=\"1-1F11G03133.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660705103396.jpg\"/></p>',img='/jlk/lib/ueditor/php/upload/image/20170117/1484660688580326.jpg' where id=5
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+delete from cases where id=4
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases where id=6
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484278387777584.jpg\" alt=\"1484278387777584.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170113/1484278387777584.jpg\" width=\"284\" height=\"212\"/></p><p style=\"text-align: center;\">清洗案例3</p>',content='<p style=\"text-align: center;\"><img alt=\"1484278387777584.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170113/1484278387777584.jpg\"/></p><p style=\"text-align: center;\"><video class=\"edui-upload-video  vjs-default-skin  video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src data-setup=\"{}\"></video></p><p style=\"text-align: center;\"><video class=\"edui-upload-video  vjs-default-skin  video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src data-setup=\"{}\"></video></p>',img='/jlk/lib/ueditor/php/upload/image/20170113/1484278387777584.jpg' where id=6
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases where id=7
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484660742127016.jpg\" alt=\"1-1F115150Z8-51.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660742127016.jpg\"/>&nbsp;&nbsp;&nbsp;&nbsp;清洗案例4</p>',content='<p style=\"text-align: center;\"><img title=\"1484660771131406.jpg\" alt=\"1-1F115150Z8.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660771131406.jpg\"/><img title=\"1484660764562640.jpg\" alt=\"1-1F115150Z8-51.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660764562640.jpg\"/></p>',img='/jlk/lib/ueditor/php/upload/image/20170117/1484660742127016.jpg' where id=7
+set names utf8
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where cat_id=1
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where id=6
+set names utf8
+select * from cases where id=5
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484660688580326.jpg\" alt=\"1-1F11G03133.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660688580326.jpg\"/></p><p style=\"text-align: center;\">清洗案例2</p>',content='<p style=\"text-align: center;\"><img title=\"1484660705103396.jpg\" alt=\"1-1F11G03133.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484660705103396.jpg\"/></p>',img='/jlk/lib/ueditor/php/upload/image/20170117/1484660688580326.jpg' where id=5
+set names utf8
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where cat_id=1
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from product_cat where cat_id=1
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from product where cat_id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=1
+select * from joins
+select * from contact
+select * from news where cat_id=1 order by publish_time desc
+set names utf8
+select * from cases where id=6
+set names utf8
+update cases set link_title='<p style=\"text-align: center;\"><img title=\"1484661719559456.jpg\" alt=\"1484278387777584.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170117/1484661719559456.jpg\"/>清洗案例3</p>',content='<p style=\"text-align: center;\"><img alt=\"1484278387777584.jpg\" src=\"/jlk/lib/ueditor/php/upload/image/20170113/1484278387777584.jpg\"/></p><p style=\"text-align: center;\"><video class=\"edui-upload-video  vjs-default-skin   video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src data-setup=\"{}\"></video></p><p style=\"text-align: center;\"><video class=\"edui-upload-video  vjs-default-skin   video-js\" controls=\"\" preload=\"none\" width=\"420\" height=\"280\" src data-setup=\"{}\"></video></p>',img='/jlk/lib/ueditor/php/upload/image/20170117/1484661719559456.jpg' where id=6
+set names utf8
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where cat_id=1
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from contact
+set names utf8
+select * from contact
+select * from contact where id=1
+set names utf8
+update contact set title='联系方式',content='<p><strong><span style=\"color: rgb(75, 172, 198); font-size: 24px;\">泉州市洁立康环保工程有限公司</span></strong><br/></p><p><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 16px;\">联系地址：晋江市青烟街道洪山路一百文创园1#楼402-3</span><strong><span style=\"font-family: arial, helvetica, sans-serif; font-size: 16px;\"><br/></span></strong></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\">经营范围：智能自来水管清洗机、多功能家电清洗设备、空气净化设备、清洁用品、清洁工具、水系统净化服务等。</span></p><p><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\">主要产品：自来水管道清洗机、家电深度清洗机、净水器等。</span></p><p><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\">联系人：张先生</span></p><p><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\">联系电话：13305060599/15959851119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0595-85050607</span></p><p><span style=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 16px;\">网址：<a style=\"color: rgb(1, 54, 119);\" title=\"www.qzjlk.com\" href=\"http://www.qzjlk.com\" target=\"_self\">www.qzjlk.com</a></span></p><p><span style=\"color: rgb(38, 38, 38); font-family: arial, helvetica, sans-serif; font-size: 16px;\"><iframe height=\"344\" src=\"/jlk/lib/ueditor/dialogs/map/show.html#center=118.57497,24.801676&zoom=13&width=530&height=340&markers=118.57497,24.801676&markerStyles=l,A\" frameborder=\"0\" width=\"534\"></iframe></span></p><p><span style=\"color: rgb(38, 38, 38); font-family: &quot;times new roman&quot;; font-size: 16px;\"><br/></span></p>' where id=1
+set names utf8
+select * from contact
+set names utf8
+select * from about
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=1
+select * from joins
+select * from contact
+select * from news where cat_id=1 order by publish_time desc
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=2
+select * from joins
+select * from contact
+select * from news where cat_id=2 order by publish_time desc
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=2
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from user where username='张伟江' and password='334e056046b43a9eeb6702fdeba47572' and status=1
+set names utf8
+select * from user where username='张伟江' and password='334e056046b43a9eeb6702fdeba47572' and status=1
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from user where username='洁立康' and password='ce5fbd48bcac8e5895c874154bef69cf' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from user where username='洁立康' and password='ce5fbd48bcac8e5895c874154bef69cf' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message
+set names utf8
+select * from message
+set names utf8
+select * from message where is_read=0
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message
+set names utf8
+select * from message where is_read=0
+set names utf8
+select * from contact
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from joins where id=1
+select * from contact
+set names utf8
+select * from about
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from user where username='洁立康' and password='ce5fbd48bcac8e5895c874154bef69cf' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from about
+set names utf8
+select * from about
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message
+set names utf8
+select * from news_cat
+set names utf8
+select * from news_cat
+select * from news_cat where cat_id=1
+set names utf8
+select * from news_cat
+set names utf8
+select * from news_cat
+select * from news_cat where cat_id=1
+set names utf8
+select * from news_cat
+select * from news_cat where cat_id=3
+set names utf8
+select * from cases_cat
+set names utf8
+select * from cases_cat
+select * from cases_cat where cat_id=1
+set names utf8
+select * from cases left join cases_cat on cases.cat_id=cases_cat.cat_id
+set names utf8
+select * from cases where id=1
+set names utf8
+update notebook set content='',status='0' where id=1
+set names utf8
+update notebook set content='',status='0' where id=1
+set names utf8
+update notebook set content='',status='0' where id=1
+set names utf8
+update notebook set content='43',status='1' where id=1
+set names utf8
+select * from notebook where id=1
+set names utf8
+update notebook set content='434',status='1' where id=1
+set names utf8
+update notebook set content='434',status='1' where id=1
+set names utf8
+update notebook set content='434',status='1' where id=1
+set names utf8
+update notebook set content='45',status='0' where id=1
+set names utf8
+update notebook set content='54',status='0' where id=1
+set names utf8
+select * from notebook where id=1
+set names utf8
+select * from notebook where id=1
+set names utf8
+update notebook set content='56',status='0' where id=1
+set names utf8
+select * from notebook where id=1
+set names utf8
+update notebook set content='56',status='0' where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=1
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=1
+select * from joins
+select * from contact
+select * from news where cat_id=1 order by publish_time desc
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=1
+select * from joins
+select * from contact
+select * from news where id=1
+select * from news where publish_time<1484276895 and cat_id=1 order by publish_time desc limit 0,1
+select * from news where publish_time>1484276895 and cat_id=1 order by publish_time asc limit 0,1
+set names utf8
+select * from about
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=1
+set names utf8
+select * from user where username='张伟江' and password='334e056046b43a9eeb6702fdeba47572' and status=1
+set names utf8
+select * from user where username='张伟江' and password='334e056046b43a9eeb6702fdeba47572' and status=1
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from goods
+set names utf8
+select * from goods;
+set names utf8
+select * from goods;
+set names utf8
+dfsd
+set names utf8
+select * from gouwuch2
+set names utf8
+select * from gouwuch2
+set names utf8
+select * from gouwuch2
+set names utf8
+select * from gouwuch2
+set names utf8
+set global foreign_key_checks=off
+select @@basedir as basePath from dual
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=1
+set names utf8
+update message set is_read=1 where id=1
+set names utf8
+select * from message
+set names utf8
+update message set is_read=1 where id=1
+set names utf8
+delete from message where id=6
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from contact
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from contact where id=1
+set names utf8
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from joins where id=3
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from joins where id=2
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from cases_cat
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where cat_id=1
+set names utf8
+select * from cases_cat
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from user where id=0
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from user
+set names utf8
+select * from user where id=6
+set names utf8
+select * from user
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=2
+select * from joins
+select * from contact
+select * from news where id=15
+select * from news where publish_time<1484271771 and cat_id=2 order by publish_time desc limit 0,1
+select * from news where publish_time>1484271771 and cat_id=2 order by publish_time asc limit 0,1
+set names utf8
+select * from cases_cat
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where cat_id=1
+set names utf8
+select * from joins
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from joins where id=1
+select * from contact
+set names utf8
+select * from user where username='张伟江' and password='334e056046b43a9eeb6702fdeba47572' and status=1
+set names utf8
+select * from user where username='张伟江' and password='e80baa23e57c7a1a835d34f38201263c' and status=1
+set names utf8
+select * from message where is_read=0
+select * from notebook where id=1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from culture where id=1
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=1
+select * from joins
+select * from contact
+select * from news where cat_id=1 order by publish_time desc
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from news_cat where cat_id=1
+select * from joins
+select * from contact
+select * from news where id=1
+select * from news where publish_time<1484276895 and cat_id=1 order by publish_time desc limit 0,1
+select * from news where publish_time>1484276895 and cat_id=1 order by publish_time asc limit 0,1
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from joins where id=3
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from joins where id=2
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from joins where id=1
+select * from contact
+set names utf8
+select * from about
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from news order by publish_time desc limit 0,8
+select * from product order by id desc limit 0,5
+select * from cases order by id desc limit 0,5
+set names utf8
+select * from about
+select * from about
+select * from about where id=1
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+set names utf8
+select * from cases_cat
+select * from about
+select * from cases_cat
+select * from cases_cat where cat_id=1
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+select * from cases where cat_id=1
+set names utf8
+select * from about
+select * from about where id=2
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact
+set names utf8
+select * from about
+select * from about where id=3
+select * from cases_cat
+select * from product_cat
+select * from culture
+select * from news_cat
+select * from joins
+select * from contact

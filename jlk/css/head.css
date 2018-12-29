@@ -1,0 +1,189 @@
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+/* flexslider */
+.flexslider{position:relative;overflow:hidden;background:url('/jlk/images/loading.gif') 50% no-repeat;}
+.slides{position:relative;z-index:1;}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;
+background:url('/jlk/images/dot.png') right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+ 
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:40px;background:url('/jlk/images/prev.png') center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:40px;background:url('/jlk/images/next.png') center center no-repeat;}    
+div.clear{
+	clear:both;
+}
+#header>ul.nav{
+
+	height:50px;
+	background-color: rgb(5,160,102);
+}
+#header>ul.nav>li{
+	width:8.3%;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	float:left;
+	color:white;
+	font-size:16px;
+	font-family: '微软雅黑';
+}
+#header>ul.nav>li>a{
+	color:white;
+	display: block;
+	width:100%;
+}
+#header>ul.nav>li.first{
+	margin-left:14%;
+}
+#header>ul.nav>li:hover{
+	cursor:pointer;
+	background-color: rgb(34,194,134);
+}
+#header>ul.nav>li:hover>ul.nav_son{
+	display: block;
+}
+#header>ul.nav>li>ul.nav_son{
+	top:50px;
+	display:none;
+	position:relative;
+	z-index:1;
+}
+#header>ul.nav>li>ul.nav_son>li{
+	width:100%;
+	height:40px;
+	background-color: rgb(34,194,134);
+	border-top: 1px solid rgb(16,173,114);
+
+}
+#header>ul.nav>li>ul.nav_son>li>a{
+	display: block;
+	color:white;
+	width:100%;
+}
+div.flexslider{
+	z-index: 0;
+}
+div.flexslider>ul.slides>li>img{
+	max-width: 100%;
+}
+div.flexslider>ul.slides>li{
+	float:left;
+}
+div.right_content{
+	margin:11px 0px 0px 11px;
+}
+div#footer{
+	color:rgb(217,217,217); 
+	background:rgb(5,160,102);
+	text-align:center;
+	font-size:14px;
+	padding:11px 0;
+}
+div.contact{
+	width:100%;
+}
+div#header>img.img_one{
+	width:41%;
+	 height:5%;
+	 margin-left:7%;
+}
+div#header>img.img_two{
+	width:19.2%;
+	height:5.1%;
+	margin-left:20%;
+}
+
+/*针对message.html里的表单的css*/
+#form1>p>span.span_one{
+	display:inline-block;
+	text-align:right;
+	width:100px;
+}
+#form1>p>span.span_two{
+	color:red;
+}
+#form1>p>span.captcha{
+	display:block;
+	float:left;
+	text-align:right;
+	width:100px;
+	line-height:30px;
+}
+#form1>p>input.captcha_input{
+	width:70px;
+	height:25px;
+	display:block;
+	float:left
+}
+#form1>p>img{
+	display:block;
+	float:left;
+	margin-left:7px;
+}
+#form1>p>input.reset{
+	width:60px;
+	height:30px;
+	line-height:30px;
+	margin-left:133px;
+}
+#form1>p>input.submit{
+	width:60px;
+	height:30px;
+	line-height:30px;
+}
+/* 小火箭css */
+	#gotop1 {
+	    width: 60px;
+	    position: fixed;
+	    bottom: 20px;
+	    cursor: pointer;
+	    z-index: 10;
+	    right: 4%;
+	    opacity:0.3;
+	}
+	#gotop1 img{
+		-display: block;
+		width:50px;
+		height: 75px;
+	}
+	/* 小火箭悬停特效 */
+		 #gotop1:hover {
+		 	  opacity:1;
+		    animation: rubberBand 1s;
+		   
+		} 
+
+		@keyframes rubberBand {
+		  from {
+		    transform: scale3d(1, 1, 1);
+		  }
+
+		  30% {
+		    transform: scale3d(1.25, 0.75, 1);
+		  }
+
+		  40% {
+		    transform: scale3d(0.75, 1.25, 1);
+		  }
+
+		  50% {
+		    transform: scale3d(1.15, 0.85, 1);
+		  }
+
+		  65% {
+		    transform: scale3d(.95, 1.05, 1);
+		  }
+
+		  75% {
+		    transform: scale3d(1.05, .95, 1);
+		  }
+
+		  to {
+		    transform: scale3d(1, 1, 1);
+		  }
+		}
+		/* end 小火箭 */

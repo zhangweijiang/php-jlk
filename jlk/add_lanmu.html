@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加栏目</title>
+
+<link rel="stylesheet" href="/jlk/css/lanmu.css">
+<script src="/jlk/js/jquery-3.1.0.js"></script>
+<script src='/jlk/lib/ueditor/ueditor.config.js'></script>
+<script src='/jlk/lib/ueditor/ueditor.all.min.js'></script>
+<script  src="/jlk/lib/ueditor/9fm/9fm.v1.js"></script>
+<script type="text/javascript">
+$(function(){
+	var edit = new UE.ui.Editor({initialContent:'',initialFrameWidth:750});
+			edit.render("content");
+			
+			$('#form').submit(function(e){
+				var reg=/^.+$/;
+				var is_empty=$.trim($('.is_empty').val());
+				if(!reg.test(is_empty)){
+					alert('栏目名称不能为空');
+					e.preventDefault();
+				}
+				
+			});
+});
+	
+</script>
+</head>
+<body style="background:rgb(221,238,242);">
+  <div id="header">
+    <a href="/jlk/admin_index.hmtl">洁立康管理中心</a>
+    <span>-添加栏目</span>
+    <a class="lanmu" href="./lanmu_list.php?table=<?php echo $table?>">栏目列表</a>
+  </div>
+  <div style="margin-top:13px;">
+	<form enctype="multipart/form-data" action="/jlk/add_lanmu_deal.php?table=<?php echo $table?>" method="post" name="form" id="form">
+	<p>栏目:<input type="text" name="title" class="is_empty"></p>
+	<textarea name="content" id="content"></textarea>
+	<p><input type="reset">&nbsp;<input type="submit" value="提交"></p>
+</div>
+</body>
+</html>

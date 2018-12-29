@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>洁立康-注册页面</title>
+	<script src="/jlk/js/jquery-3.1.0.js"></script>
+	<link rel="stylesheet" href="/jlk/css/reset.css">
+	<style type="text/css">
+	#form{
+		margin:50px auto;
+		overflow: hidden;
+		width:530px;
+		display: block;
+	}
+		#form>ul>li{
+			overflow: hidden;
+			margin:13px 0;
+		}
+		#form>ul>li>input{
+				float: left;
+				width:220px;
+				height:30px;
+		}	
+		#form>ul>li>input:hover{
+			cursor: text;
+		}
+		#form>ul>li>input#submit:hover{
+			cursor: pointer;
+		}
+		#form>ul>li>span{
+				width:90px;
+				height:30px;
+				line-height: 30px;
+				font-size: 15px;
+				text-align: right;
+				float: left;
+		}
+		#form>ul>li>img{
+			margin-top:7px;
+			margin-left: 7px;
+			float:left;
+		}
+		#form>ul>li>input#submit{
+			color:white;
+			font-size: 15px;
+			float:static;
+			margin-left:100px;
+			outline:none;
+			border:0;
+			width:180px;
+			background: rgb(197,0,0);
+			border-radius: 4px;
+		}
+
+	</style>
+	<script type="text/javascript">
+
+		$(function(){
+			$('#username').focus();
+				var reg=/^.+$/;
+				var username_reg=/^([a-zA-Z]|[\u4E00-\u9FA5]){1}([a-zA-Z0-9]|[\u4E00-\u9FA5]|[_]){1,20}$/;
+				var username_flag=false;
+				var pwd_flag=false;
+				var pwd_assure_flag=false;
+				var telephone_flag=false;
+				var email_flag=false;
+				$('#username').blur(function(){
+					var username=$.trim($('#username').val());
+					if(!reg.test(username)){
+						$(this).siblings().not("span:first").hide();
+			 			$(this).next().next().show();
+			 			$(this).next().next().next().show();
+			 			username_flag=false;
+				 	}else if(username_reg.test(username)){
+				 		$(this).siblings().not("span:first").hide();
+				 		$(this).next().show();
+				 		username_flag=true;
+				 	}else{
+				 		$(this).siblings().not("span:first").hide();
+			 			$(this).next().next().show();
+			 			$(this).next().next().next().next().show();
+			 			username_flag=false;
+				 	}
+			
+				});
+
+				$('#pwd').blur(function(){
+				
+					var pwd=$.trim($('#pwd').val());
+					var pwd_reg_low=/^(?:\d){6,20}$|[a-zA-Z]{6,20}$|[?,.:;'"~!@#$%^&*]{6,20}$/;
+					var pwd_reg_middle=/^(?!\d+$)(?![a-zA-Z]+$)(?![@#$%^&?,.;:"'~]+$)([a-zA-Z\d]{6,20}|[@#$%^&?,.;:"'~\d]{6,20}|[a-zA-Z@#$%^&?,.;:"'~]{6,20})$/;
+					var pwd_reg_high=/^(?![a-zA-z]+$)(?!\d+$)(?![!@#$%^&*?,.;:'"~]+$)(?![a-zA-z\d]+$)(?![a-zA-z!@#$%^&*?,.;:'"~]+$)(?![\d!@#$%^&*?,.;:'"~]+$)[a-zA-Z\d!@#$%^&*?,.;:'"~]{6,20}$/;
+					 if(!reg.test(pwd)){
+						$(this).siblings().not("span:first").hide();
+						$(this).next().next().next().next().show();
+						$(this).next().next().next().next().next().next().show();
+						pwd_flag=false;
+				 	}else if(pwd_reg_low.test(pwd)){
+				 		$(this).siblings().not("span:first").hide();
+						$(this).next().show();
+			 			$(this).next().next().show();
+			 			$(this).next().next().next().html('弱');
+			 			$(this).next().next().next().show();
+			 			pwd_flag=true;
+				 	}else if(pwd_reg_middle.test(pwd)){
+				 		$(this).siblings().not("span:first").hide();
+						$(this).next().show();
+			 			$(this).next().next().show();
+			 			$(this).next().next().next().html('中');
+			 			$(this).next().next().next().show();
+			 			pwd_flag=true;
+				 	}else if(pwd_reg_high.test(pwd)){
+				 		$(this).siblings().not("span:first").hide();
+						$(this).next().show();
+			 			$(this).next().next().show();
+			 			$(this).next().next().next().html('强');
+			 			$(this).next().next().next().show();
+			 			pwd_flag=true;
+				 	}else{
+				 		$(this).siblings().not("span:first").hide();
+						$(this).next().next().next().next().show();
+			 			$(this).next().next().next().next().next().show();
+			 			pwd_flag=false;
+				 	}
+				 
+				});
+				$('#pwd_assure').blur(function(){
+		
+					var pwd_assure=$.trim($('#pwd_assure').val());
+					var pwd=$.trim($('#pwd').val());
+					if(!reg.test(pwd_assure)){
+						$(this).siblings().not("span:first").hide();
+						$(this).next().next().next().next().show();
+			 			$(this).next().next().next().next().next().show();
+			 			pwd_assure_flag=false;
+					}else if(pwd==pwd_assure){
+						$(this).siblings().not("span:first").hide();
+						$(this).next().show();
+						pwd_assure_flag=true;
+					}else{
+						$(this).siblings().not("span:first").hide();
+						$(this).next().next().show();
+			 			$(this).next().next().next().show();
+			 			pwd_assure_flag=false;
+					}
+				
+				});
+				$('#telephone').blur(function(){
+					
+					var telephone=$.trim($('#telephone').val());
+					var ph_reg = /^[1][345789]\d{9}$/;
+					if(!reg.test(telephone)){
+						$(this).siblings().not("span:first").hide();
+						$(this).next().next().show();
+			 			$(this).next().next().next().show();
+			 			telephone_flag=false;
+			 		}else if(!ph_reg.test(telephone)){
+			 			$(this).siblings().not("span:first").hide();
+						$(this).next().next().next().next().show();
+			 			$(this).next().next().next().next().next().show();
+			 			telephone_flag=false;
+			 		}else{
+			 			$(this).siblings().not("span:first").hide();
+						$(this).next().show();
+						telephone_flag=true;
+			 		}
+			 	
+				});
+				$('#email').blur(function(){
+					
+						var email=$.trim($('#email').val());
+						var em_reg=/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+						if(!reg.test(email)){
+						$(this).siblings().not("span:first").hide();
+						$(this).next().next().show();
+			 			$(this).next().next().next().show();
+			 			email_flag=false;
+			 		}else if(!em_reg.test(email)){
+			 			$(this).siblings().not("span:first").hide();
+						$(this).next().next().next().next().show();
+			 			$(this).next().next().next().next().next().show();
+			 			email_flag=false;
+			 		}else{
+			 			$(this).siblings().not("span:first").hide();
+						$(this).next().show();
+							email_flag=true;
+			 		}
+			 	
+				});
+				$('#form').submit(function(e){
+					$('#username').focus();
+					$('#pwd').focus();
+					
+					$('#email').focus();
+					$('#telephone').focus();
+					if(username_flag==true&&pwd_flag==true&&pwd_assure_flag==true&&telephone_flag==true&&email_flag==true){
+
+					}else{   
+						alert('请正确填写信息！');
+						if(username_flag==false){
+							$('#username').focus();
+						}else if(pwd_flag==false){
+							$('#pwd').focus();
+						}else if(pwd_assure_flag==false){
+							$('#pwd_assure').focus();
+						}else {	
+						}
+						e.preventDefault();
+					}
+			 		
+			});
+		});
+	</script>
+</head>
+<body style="background:url(/jlk/images/register.jpg)">
+	<?php if($_GET['status']=='edit'){?>
+		<form action="/jlk/edit_user_act.php?id=<?php echo $_GET['id'];?>" method="post" enctype="multipart/form-data" id="form" style="margin-left:110px;margin-top:190px;">
+		<ul>
+			<li>
+				<span>会员名：</span><input type="text" name="username" id="username" value="<?php echo $result['username'];?>" >
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;margin-left:7px;">请输入会员名</span>
+				<span style="color:#f00;width:150px;display:none;margin-left:-26px;">会员名格式不规范</span>
+			</li>
+			<li>
+				<span>密码：</span><input type="password" name="password" id="pwd" value="">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;"><span style="width:53px;display:none;">强度：</span><span style="width:16px;color:rgb(255,125,27);display:none;">中</span>
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="width:150px;color:#f00;display:none;margin-left:-7px;">密码设置不符合要求</span>
+				<span style="color:#f00;display:none;width:120px;margin-left:-38px;">请输入密码</span>
+			</li>
+			<li>
+				<span>确认密码：</span><input type="password" name="pwd_assure" id="pwd_assure" value="">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;width:180px;margin-left:-38px;">两次密码输入不一致</span>
+				<img src="/jlk/images/提示.png" alt="" style="display:none;"><span style="width:130px;display:none;margin-left:-20px;">请再次输入密码</span>
+			</li>
+			<li>
+				<span>手机号：</span><input type="text" name="telephone" id="telephone" value="<?php echo $result['telephone'];?>">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;margin-left:7px;">请输入手机号</span>
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;width:180px;display:none;margin-left:-53px;">手机号格式不规范</span>
+			</li>
+			<li>
+				<span>电子邮箱：</span><input type="text" name="email" id="email" value="<?php echo $result['email'];?>">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;">请输入email</span>
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;width:150px;display:none;margin-left:-30px;">email格式不规范</span>
+			</li>
+			<li>
+				<input type="submit" id="submit" value="提交">
+			</li>
+		</ul>
+	</form>
+	<?php }else{?>
+	<form action="/jlk/registerAct.php" method="post" enctype="multipart/form-data" id="form" style="margin-left:110px;margin-top:190px;">
+		<ul>
+			<li>
+				<span>会员名：</span><input type="text" name="username" id="username" >
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;margin-left:7px;">请输入会员名</span>
+				<span style="color:#f00;width:150px;display:none;margin-left:-26px;">会员名格式不规范</span>
+			</li>
+			<li>
+				<span>密码：</span><input type="password" name="password" id="pwd">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;"><span style="width:53px;display:none;">强度：</span><span style="width:16px;color:rgb(255,125,27);display:none;">中</span>
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="width:150px;color:#f00;display:none;margin-left:-7px;">密码设置不符合要求</span>
+				<span style="color:#f00;display:none;width:120px;margin-left:-38px;">请输入密码</span>
+			</li>
+			<li>
+				<span>确认密码：</span><input type="password" name="pwd_assure" id="pwd_assure">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;width:180px;margin-left:-38px;">两次密码输入不一致</span>
+				<img src="/jlk/images/提示.png" alt="" style="display:none;"><span style="width:130px;display:none;margin-left:-20px;">请再次输入密码</span>
+			</li>
+			<li>
+				<span>手机号：</span><input type="text" name="telephone" id="telephone">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;margin-left:7px;">请输入手机号</span>
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;width:180px;display:none;margin-left:-53px;">手机号格式不规范</span>
+			</li>
+			<li>
+				<span>电子邮箱：</span><input type="text" name="email" id="email">
+				<img src="/jlk/images/同意.png" alt="" style="display:none;">
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;display:none;">请输入email</span>
+				<img src="/jlk/images/关闭.png" alt="" style="display:none;"><span style="color:#f00;width:150px;display:none;margin-left:-30px;">email格式不规范</span>
+			</li>
+			<li>
+				<input type="submit" id="submit" value="提交">
+			</li>
+		</ul>
+	</form>
+	<?php }?>
+</body>
+</html>

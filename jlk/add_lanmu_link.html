@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加栏目</title>
+<script src="/jlk/js/jquery-3.1.0.js"></script>
+<link rel="stylesheet" href="/jlk/css/lanmu.css">
+<script type="text/javascript">
+$(function(){
+	
+			$('#form').submit(function(e){
+				var reg=/^.+$/;
+				var is_empty=$.trim($('.is_empty').val());
+				if(!reg.test(is_empty)){
+					alert('栏目名称不能为空');
+					e.preventDefault();
+				}
+				
+			});
+});
+	
+</script>
+</head>
+<body style="background:rgb(221,238,242);">
+  <div id="header">
+    <a href="/jlk/admin_index.hmtl">洁立康管理中心</a>
+    <?php if($table==='news_cat'){?>
+    <span>-添加分类</span>
+    <a class="lanmu" href="./lanmu_list.php?table=<?php echo $table?>">分类列表</a>
+    <?php }else if($table==='product_cat'){?>
+   <span>-添加分类</span>
+    <a class="lanmu" href="./lanmu_list.php?table=<?php echo $table?>">分类列表</a>
+    <?php }else{?>
+    <span>-添加分类</span>
+    <a class="lanmu" href="./lanmu_list.php?table=<?php echo $table?>">分类列表</a>
+    <?php }?>
+  </div>
+  <div style="margin-top:13px;">
+	<form enctype="multipart/form-data" action="/jlk/add_lanmu_deal.php?table=<?php echo $table?>" method="post" name="form" id="form">
+		<?php if($table==='news_cat'){?>
+	<p>新闻分类:<input type="text" name="cat_title" class="is_empty"></p>
+	分类描述：<textarea name="cat_desc" id="" cols="40" rows="10"></textarea>
+	<p><input type="reset">&nbsp;<input type="submit" value="提交"></p>
+	<?php }else if($table==='product_cat'){?>
+	<p>产品分类:<input type="text" name="cat_title" class="is_empty"></p>
+	分类描述：<textarea name="cat_desc" id="" cols="40" rows="10"></textarea>
+	<p><input type="reset">&nbsp;<input type="submit" value="提交"></p>
+	<?php }else{?>
+	<p>案例分类:<input type="text" name="cat_title" class="is_empty"></p>
+	分类描述：<textarea name="cat_desc" id="" cols="40" rows="10"></textarea>
+	<p><input type="reset">&nbsp;<input type="submit" value="提交"></p>
+	<?php }?>
+</div>
+</body>
+</html>

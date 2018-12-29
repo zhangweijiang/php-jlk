@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name=”renderer”content=”webkit|ie-comp|ie-stand”>
+<title>后台管理</title>
+<script src="/jlk/js/jquery-3.1.0.js"></script>
+<script src="/jlk/js/jquery.mousewheel.min.js"></script>
+<script src="/jlk/js/admin.js"></script>
+<script src="/jlk/js/sidebar-menu.js"></script>
+<script src="/jlk/js/notebook.js"></script>
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">  -->
+<link rel="stylesheet" href="/jlk/css/reset.css">
+ <link rel="stylesheet" href="/jlk/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="/jlk/css/font-awesome.css">
+<link rel="stylesheet" href="/jlk/css/admin.css">
+<link rel="stylesheet" href="/jlk/css/sidebar-menu.css">
+<link rel="stylesheet" href="/jlk/css/notebook.css">
+
+</head>
+<body>
+	<div class="notebook_edit">		
+		<img src="/jlk/images/btn_close.gif" alt="" class="img_right">
+		<img src="/jlk/images/btn_maximize.gif" alt="" class="img_left1">
+		<img src="/jlk/images/btn_minimize.gif" alt="" class="img_left">
+		<div class="clear"></div>
+	<div class="notebook_content">
+		<div id="notebook_head">记事本</div>
+		<form action="/jlk/notebook.php"  id="form1" method="post">
+			<textarea name="content" id="content" cols="30" rows="10"><?php echo $notebook['content']?></textarea>
+			<p><input type="checkbox" style="margin-top:7px;margin-left:234px;" id="checkbox">
+				<span>自动保存</span>
+			      <input type="submit" value="保存"  class="submit">
+			      <input type="button" value="清除"  class="reset">
+
+			</p>
+		</form>
+		</div>
+	</div>
+	<div class="head">
+	<!-- 	<img src="../../view/images/admin/logo.png" alt="图片不存在"> -->
+		<ul id="nav" style="margin-left:13%;">
+			<li><a href="/main.php" >查看网站</a></li>
+			<li><a href="#" class="notebook">记事本</a></li>
+			<li><a href="#" id="shuaxin">刷新</a></li>
+			<li><a href="/jlk/about_us.html" target="right">关于我们</a></li>
+			<li><a href="/jlk/login_out.php">退出</a></li>
+		</ul>
+	</div>
+	<div class="outerContent" style="background:rgb(34,45,50);">
+			<aside class="main-sidebar innerContent" >
+				<section class="sidebar">
+					<ul class="sidebar-menu">
+						<li class="header" style="margin-left: 3px;"><i
+							class="fa fa-list" style="color: white"></i>&nbsp;&nbsp;&nbsp;&nbsp;菜&nbsp;单</li>
+
+						<li class="treeview"><a href="#"> <i
+								class="fa fa-cloud"></i> <span>关于我们</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/lanmu_list.php?table=about" target="right"><i class="fa fa-circle-o"></i> 栏目列表</a></li>
+								<li><a href="/jlk/add_lanmu.php?table=about" target="right"><i class="fa fa-circle-o"></i> 添加栏目</a></li>
+								<li><a href="/jlk/update_lanmu.php?table=about" target="right"><i class="fa fa-circle-o"></i> 修改栏目</a></li>
+							</ul></li>
+						<li class="treeview"><a href="#"> <i
+								class="fa fa-cloud"></i> <span>项目实例</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/lanmu_list.php?table=cases_cat" target="right"><i class="fa fa-circle-o"></i> 案例分类列表</a></li>
+								<li><a href="/jlk/add_lanmu.php?table=cases_cat" target="right"><i class="fa fa-circle-o"></i> 添加案例分类</a></li>
+								<li><a href="/jlk/update_lanmu.php?table=cases_cat" target="right"><i class="fa fa-circle-o"></i> 修改案例分类</a></li>
+								<li><a href="/jlk/lanmu_detail_list.php?table=cases" target="right"><i class="fa fa-circle-o"></i> 案例详情列表</a></li>
+								<li><a href="/jlk/add_lanmu_detail.php?table=cases" target="right"><i class="fa fa-circle-o"></i> 添加案例详情</a></li>
+							</ul></li>
+
+							<li class="treeview"><a href="#"> <i
+								class="fa fa-cloud"></i> <span>产品中心</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/lanmu_list.php?table=product_cat" target="right"><i class="fa fa-circle-o"></i> 产品分类列表</a></li>
+								<li><a href="/jlk/add_lanmu.php?table=product_cat" target="right"><i class="fa fa-circle-o"></i> 添加产品分类</a></li>
+								<li><a href="/jlk/update_lanmu.php?table=product_cat" target="right"><i class="fa fa-circle-o"></i> 修改产品分类</a></li>
+								<li><a href="/jlk/lanmu_detail_list.php?table=product" target="right"><i class="fa fa-circle-o"></i> 产品详情列表</a></li>
+								<li><a href="/jlk/add_lanmu_detail.php?table=product" target="right"><i class="fa fa-circle-o"></i> 添加产品详情</a></li>
+							</ul></li>
+
+							<li class="treeview"><a href="#"> <i
+								class="fa fa-cloud"></i> <span>企业文化</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/lanmu_list.php?table=culture" target="right"><i class="fa fa-circle-o"></i> 栏目列表</a></li>
+								<li><a href="/jlk/add_lanmu.php?table=culture" target="right"><i class="fa fa-circle-o"></i> 添加栏目</a></li>
+								<li><a href="/jlk/update_lanmu.php?table=culture" target="right"><i class="fa fa-circle-o"></i> 修改栏目</a></li>
+							</ul></li>
+
+							<li class="treeview"><a href="#"> <i
+								class="fa fa-cloud"></i> <span>新闻资讯</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/lanmu_list.php?table=news_cat" target="right"><i class="fa fa-circle-o"></i> 新闻分类列表</a></li>
+								<li><a href="/jlk/add_lanmu.php?table=news_cat" target="right"><i class="fa fa-circle-o"></i> 添加新闻分类</a></li>
+								<li><a href="/jlk/update_lanmu.php?table=news_cat" target="right"><i class="fa fa-circle-o"></i> 修改新闻分类</a></li>
+								<li><a href="/jlk/lanmu_detail_list.php?table=news" target="right"><i class="fa fa-circle-o"></i> 新闻详情列表</a></li>
+								<li><a href="/jlk/add_lanmu_detail.php?table=news" target="right"><i class="fa fa-circle-o"></i> 添加新闻详情</a></li>
+								
+							</ul></li>
+
+							<li class="treeview"><a href="#" target="right"> <i
+								class="fa fa-cloud"></i> <span>加入我们</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/lanmu_list.php?table=joins" target="right"><i class="fa fa-circle-o"></i> 栏目列表</a></li>
+								<li><a href="/jlk/add_lanmu.php?table=joins" target="right"><i class="fa fa-circle-o"></i> 添加栏目</a></li>
+								<li><a href="/jlk/update_lanmu.php?table=joins" target="right"><i class="fa fa-circle-o"></i> 修改栏目</a></li>
+							</ul></li>
+
+							<li class="treeview"><a href="#" target="right"><i
+								class="fa fa-cloud"></i> <span>联系我们</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/lanmu_list.php?table=contact" target="right"><i class="fa fa-circle-o"></i> 栏目列表</a></li>
+								<li><a href="/jlk/add_lanmu.php?table=contact" target="right"><i class="fa fa-circle-o"></i> 添加栏目</a></li>
+								<li><a href="/jlk/update_lanmu.php?table=contact" target="right"><i class="fa fa-circle-o"></i> 修改栏目</a></li>
+							</ul></li>
+
+						<li class="treeview"><a href="#"> <i
+								class="fa fa-newspaper-o"></i> <span>广告管理</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="#"><i class="fa fa-circle-o"></i> Simple
+										tables</a></li>
+								<li><a href="#"><i class="fa fa-circle-o"></i> Data
+										tables</a></li>
+							</ul></li>
+
+						<li class="treeview"><a href="#"> <i class="fa fa-comment"></i>
+							<?php if(count($result)>0){?><span>留言管理</span> <span style="margin-left:43.1%;width:13%;display:inline-block;background:rgb(217,83,79);border-radius:3px;text-align:center;"><?php echo count($result);?></span>
+							<?php }else{?>
+								<span>留言管理</span> <i class="fa fa-angle-left pull-right"></i> 
+								<?php }?>
+								
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/message_list.php" target="right"><i class="fa fa-circle-o"></i>留言列表</a></li>
+								<li><a href="/jlk/untreated_message.php" target="right"><i class="fa fa-circle-o"></i> 未处理留言</a></li>
+							</ul></li>
+							
+							
+					    <li class="treeview"><a href="#"> <i class="fa fa-user"></i>
+								<span>会员管理</span> <i class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/register.php"><i class="fa fa-circle-o"></i> 用户注册</a></li>
+								<li><a href="/jlk/user_list.php" target="right"><i class="fa fa-circle-o"></i> 用户列表</a></li>
+							</ul></li>
+
+						<li class="treeview"><a href="#"> <i
+								class="fa fa-puzzle-piece"></i> <span>数据库管理</span> <i
+								class="fa fa-angle-left pull-right"></i>
+						</a>
+							<ul class="treeview-menu">
+								<li><a href="/jlk/sql_select.php" target="right"><i class="fa fa-circle-o"></i> SQL查询</a></li>
+								<li><a href="/jlk/backup.html" target="right"><i class="fa fa-circle-o"></i> 数据备份</a></li>
+								<li><a href="/jlk/recover_bak.php" target="right"><i class="fa fa-circle-o"></i> 恢复备份</a></li>
+							</ul></li>
+												
+						
+					</ul>
+				</section>
+			</aside>
+	</div>
+
+	<div class="outer">
+		<div class="inner"></div>
+	</div>
+	<iframe src="/jlk/admin_index.html" frameborder="0" name="right" id="myiframe"></iframe>
+	<script type="text/javascript">
+	$.sidebarMenu($('.sidebar-menu'));
+	$('#shuaxin').click(function(e){
+		document.getElementById('myiframe').contentWindow.location.reload(true);
+		e.preventDefault();
+	});
+	
+	</script>
+</body>
+</html>

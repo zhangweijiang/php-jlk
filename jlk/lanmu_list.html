@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>栏目列表</title>
+<link rel="stylesheet" href="/jlk/css/lanmu.css">
+<script src="/jlk/js/jquery-3.1.0.js"></script>
+<script type="text/javascript">
+$(function(){
+$('.delete').click(function(e){
+      if(confirm('您确实要删除该商品吗?')){
+
+      }else{
+        e.preventDefault();
+      }
+    });
+});
+</script>
+</head>
+<body >
+  <div id="header">
+    <a href="/jlk/admin_index.hmtl">洁立康管理中心</a>
+    <span>-栏目列表</span>
+    <a class="lanmu" href="./add_lanmu.php?table=<?php echo $table?>">添加栏目</a>
+  </div>
+  <div style="margin-top:11px;">
+  <table width="100%" border="1" cellspacing="0">
+      <tr >
+          <th style="width:10%;background:rgb(187,221,229);">栏目序号</th>
+          <th style="width:10%;background:rgb(187,221,229)">栏目标题</th>
+          <th style="width:70%;background:rgb(187,221,229)">栏目内容</th>
+           <th style="width:10%;background:rgb(187,221,229)">操作</th>
+      </tr>
+      <?php if($result!==false){ foreach($result as $k=>$v){?>
+          <tr >
+          <td style="width:10%;"><?php echo $v['id']; ?></td>
+          <td style="width:10%;"><?php echo $v['title']; ?></td>
+          <td style="width:70%;"><?php  echo $v['content']; ?></td>
+          <td style="width:10%;text-align:center;">
+                  <a href="/jlk/update_lanmu.php?id=<?php echo $v['id']?>&table=<?php echo $table ?>" title="编辑"><img src="/jlk/images/icon_edit.gif" width="20" height="20" border="0" /></a>
+                 <a href="/jlk/lanmu_delete.php?id=<?php echo $v['id']?>&table=<?php echo $table ?>"  title="删除" class="delete"><img src="/jlk/images/icon_trash.gif" width="20" height="20" border="0" /></a>
+          </td>
+       </tr>
+    <?php } }?>
+  
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>栏目列表</title>
+<link rel="stylesheet" href="/jlk/css/lanmu.css">
+<script src="/jlk/js/jquery-3.1.0.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.submit').click(function(){
+			$('.loading').show();
+		});
+	});
+</script>
+</head>
+<body style="background:rgb(221,238,242);">
+  <div id="header">
+    <a href="/jlk/admin_index.hmtl">洁立康管理中心</a>
+    <span>-数据备份</span>
+     <a class="lanmu" href="/jlk/recover_bak.php">恢复备份</a>
+  </div>
+<form action="/jlk/sql_bak.php" method="post" id="form1">
+备份文件名: <input type="text" name="filename" value="jlk"><br>
+  <input type="submit" value="开始备份" class="submit">
+</form>
+<img src="/jlk/images/loading.gif" alt="" class="loading" style="position:relative;left:10%;top:13px;display:none;">
+</body>
+</html>
